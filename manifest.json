@@ -1,0 +1,20 @@
+{
+
+  "manifest_version": 2,
+  "name": "gtrans-sidebar",
+  "description": "show google translate in sidebar",
+  "version": "1.0",
+  "browser_specific_settings": {
+    "gecko": {
+      "strict_min_version": "58.0"
+    }
+  },
+
+  "sidebar_action": {
+    "default_icon": "icons/favicon.png",
+    "default_title": "google translate Sidebar",
+    "default_panel": "sidebar/panel.html"
+  },
+
+  "permissions": ["storage", "tabs"]
+}
